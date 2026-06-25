@@ -1,0 +1,41 @@
+.navbar-toggler{
+margin-left: auto;
+margin-right: 100px;
+}
+.mm{
+ color: white;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+}
+.album{
+    text-align:center;
+    margin-top: 120px;
+ 
+}
+.h1{
+    font-weight: 200;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    
+
+}
+.h6{
+    font-weight: 100;
+  font-size: 3px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  color: gray;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}

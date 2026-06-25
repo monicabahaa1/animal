@@ -1,0 +1,176 @@
+       <!DOCTYPE html>
+<html>
+    <head>
+        <head>
+      <meta name="viewoprt" content="width=device-width, initial-scale=1.0">
+        <title>Paw Home</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="task.css">
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Flavors:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dangrek:wght@400;700&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Rakkas:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav2">
+  <div class="container-fluid padding">
+    <a class="navbar-brand" href="#">Paw Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse right" id="navbarSupportedContent">
+      <ul class="navbar-nav  mb-2 mb-lg-0 right">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" target="_self">About</a>
+        </li>
+      <li class="nav-item">
+  <a class="nav-link " href="adopt.html"> Adopt</a>
+</li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal9">Call a Vet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Contact Us</a>
+        </li>
+          </ul>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <div class="conf-form"><br>
+            <h1 >Adoption Confirmation Form</h1>
+            <h3>Please fill out this form with the required information</h3>
+            <form>
+                <label for="fname" >Enter Your First Name:</label><br>
+            <input type="text" id="fname" name="fname"class="name" ><br>
+        </form>
+            <form>
+            <label for="lname">Enter Your Last Name:</label><br>
+            <input type="text" id="lname"  class="name" name="lname"><br>
+        </form>
+            <form>
+                <label for="email" >Enter Your Email:</label><br>
+                <input type="email" id="email"  class="name" name="email"><br>
+            </form>
+                <form>
+                <label for="pass" >Enter Your Password:</label><br>
+                <input type="password" id="pass" class="name" name="password"><br>
+            </form>
+             <form>
+                <label for="fname" >Enter Your Address:</label><br>
+            <input type="text" id="fname" name="fname"class="name" ><br></form>
+            <form>
+                <label for="fname" >Input Your Phone Number:</label><br>
+            <input type="text" id="fname" name="fname"class="name" ><br>
+        </form>
+            <hr class="mx-auto">
+        <form class="buttons">
+        <input type="radio">
+        <label class="acc">Male</label><br><br>
+        <input type="radio">
+        <label class="acc">Female</label><br><br>
+        <input type="checkbox">
+        <label class="acc">I accept the <u>terms and conditions</u></label>
+        </form>
+        <hr class="mx-auto">
+        <form>
+            <label for="pic">Upload your National ID and your Picture</label><br>
+            <input type="file" class="name" name="pic"><br><br>
+            <label for="age">Input your age (years):</label><br>
+            <input type="number" name="age" class="name"><br><br><br>
+            <label for="bio">Do you have other pets? <br>
+If yes, how will you introduce and manage them with your new pet?</label><br>
+            <textarea ></textarea><br>
+             </form>
+             <div class="text-center">
+           <button type="button" class="btn  submit" data-bs-toggle="modal" data-bs-target="#modal10">Submit</button>
+            </div>
+        </div>
+         <div class="modal fade" id="modal10">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Paw Home</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+    Thanks for your addoption! <br> we'll contact you soon to Confirm
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-warning" onclick="location.href='project.html'">Done</button>
+      </div>
+    </div>
+  </div>
+</div> 
+    <div class="modal fade" id="modal9">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Call A Vet</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+     Saw an injured animal on the street? Or is your pet hurt? Don’t wait—call us right away! Our team is ready to help and make sure every animal gets the care they need.<br>
+<i class="fa-solid fa-phone"></i> Call Now: 74603
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-warning" data-bs-dismiss="modal">Done</button>
+      </div>
+    </div>
+  </div>
+</div> 
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title modal-title" id="offcanvasWithBothOptionsLabel">Contact Us</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body modal-body">
+    <p><i class="fa-solid fa-phone"></i> Phone : 01274437958</p>
+    <p><i class="fa-solid fa-at"></i> Email : PawHome@gmail.com</p>
+    <p><i class="fa-solid fa-location-dot"></i> Location : El Gmhorya St., next to McDonald's, Assiut, Egypt.</p>
+    <p><i class="fa-solid fa-clock"></i> Working Hours : Mon-Fri 9 AM - 6 PM</p>
+  </div>
+</div>
+<footer class="bg text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Paw Home</h4>
+        <p>Helping pets find loving homes. Adopt a friend today and give them a better life.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="project.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="adopt.html" class="text-white text-decoration-none">Adopt</a></li>
+          <li><a href="about.html" class="text-white text-decoration-none">About Us</a></li>
+          <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Follow Us</h5>
+        <a href="#" class="text-white me-3"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="text-white me-3"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="text-white"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="text-center">
+      <p class="mb-0">© 2026 Paw Home. All Rights Reserved.</p>
+    </div>
+
+  </div>
+</footer>
+ <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
